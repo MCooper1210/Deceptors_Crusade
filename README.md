@@ -24,3 +24,7 @@ michael.cooper1210@ntlworld.com
 * 0.3
      * I looked into ways to create a wrapper for the navbar, I found a post on stack overflow for using web components to do this. Someone had a template to use which was easy to follow and I simply used my code in place of theirs. It looks like a very simple method and works effectively. I Applied this to both the index.html and legionaries_melee.html pages, I no longer need to copy and paste this whole section of code, and if I need to make any changes to the navbar, I only need to edit one file. Which will save a lot of time.
      * My next goal is to see if I can use web components to make a template for the units pages, and somehow parse data to them to create the eight other pages. Which will save time overall. 
+* 0.4
+     * Edited the nav-template to use the code for the unit template. For this I would be feeding data in from a separate json file. With this I can use this one javascript file and multiple json files to create the pages I need for the other units in the crusade games. 
+     * Creating new JSON files will be straightforward, and updating them as the crusade games progress will be equally simple.
+     * My next goal is to create multiple files for the other units.

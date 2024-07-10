@@ -1,0 +1,84 @@
+{
+  "title": "Legionaries Melee",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 5,
+  "unitCost": 90,
+  "experience": 0,
+  "image": "/img/legionaries_melee.jpg",
+  "stats": {
+    "M": "6\"",
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+  },
+  "rangedWeapons": [
+    {
+      "name": "Bolt Pistol",
+      "type": "[PISTOL]",
+      "range": "12\"",
+      "A": 1,
+      "BS": "3+",
+      "S": 4,
+      "AP": 0,
+      "D": 1
+    },
+    {
+      "name": "Plasma Pistol",
+      "type": "[PISTOL]",
+      "range": "12\"",
+      "A": 1,
+      "BS": "3+",
+      "S": 7,
+      "AP": -2,
+      "D": 1
+    },
+    {
+      "name": "Plasma Pistol (Overcharge)",
+      "type": "[HAZARDOUS] [PISTOL]",
+      "range": "12\"",
+      "A": 1,
+      "BS": "3+",
+      "S": 8,
+      "AP": -3,
+      "D": 2
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes Chainsword",
+      "range": "Melee",
+      "A": 4,
+      "BS": "3+",
+      "S": 4,
+      "AP": -1,
+      "D": 1
+    },
+    {
+      "name": "Heavy Melee Weapon",
+      "range": "Melee",
+      "A": 3,
+      "BS": "3+",
+      "S": 8,
+      "AP": -2,
+      "D": 2
+    }
+  ],
+  "abilities": [
+    { "name": "Faction", "description": "Dark Pacts" },
+    {
+      "name": "Veterans of the Long War",
+      "description": "Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+    },
+    {
+      "name": "Chaos Icon",
+      "description": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+    }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}
