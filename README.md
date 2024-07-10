@@ -20,5 +20,7 @@ michael.cooper1210@ntlworld.com
  * 0.2
      * Created one of the unit pages with the desired base layout. The information on this page relates to unit stat blocks from Warhammer 40,000, following a similar format. The aim is to update these stats as the Crusade games progress. I also plan to include pictures of my own models, although photography is not a strong-suit of mine.
      * Going forward, I aim to create a template for this layout, as I will be making nine pages in total that follow this format. Using a template will be more efficient than duplicating and manually editing each file.
-     * My next goal is to create a wrapper for the Navbar at the top of the page.
-
+     * My next goal is to create a wrapper for the navbar at the top of the page.
+* 0.3
+     * I looked into ways to create a wrapper for the navbar, I found a post on stack overflow for using web components to do this. Someone had a template to use which was easy to follow and I simply used my code in place of theirs. It looks like a very simple method and works effectively. I Applied this to both the index.html and legionaries_melee.html pages, I no longer need to copy and paste this whole section of code, and if I need to make any changes to the navbar, I only need to edit one file. Which will save a lot of time.
+     * My next goal is to see if I can use web components to make a template for the units pages, and somehow parse data to them to create the eight other pages. Which will save time overall. 
