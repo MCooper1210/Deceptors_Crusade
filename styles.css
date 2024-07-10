@@ -48,3 +48,31 @@ p {
   width: calc(20% - 10px);
   min-width: fit-content;
 }
+
+table {
+  isolation: isolate;
+  text-align: center;
+  justify-content: center;
+}
+
+.unit {
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+}
+
+.crusade_stats {
+  padding-left: 2.5%;
+  padding-right: 2%;
+  border-style: solid;
+  backdrop-filter: blur(10px);
+  margin: 5px;
+  margin-bottom: 16px;
+  max-width: calc(20% - 20px);
+  min-width: fit-content;
+}
+
+.crusade_stats,
+p {
+  font-size: large;
+}
