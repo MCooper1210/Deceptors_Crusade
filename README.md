@@ -31,3 +31,7 @@ michael.cooper1210@ntlworld.com
 * 0.5
      * Created json files for each unit with relevant information. Also added the images for each unit.
      * My next goal is to create multiple html files for these units.
+* 0.6
+     * Created other html pages for the other units in the crusade, using a similar format to the legionaries_melee.html. 
+     * Updated the legionaries_melee.html as it was using an incorrect json file.
+     * Next goal is to create the chaos_favour.html page, as this is the last page I need for this website.
