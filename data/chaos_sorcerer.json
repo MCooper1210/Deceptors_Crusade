@@ -1,0 +1,33 @@
+{
+  "title": "Chaos Sorcerer",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 1,
+  "unitCost": 60,
+  "experience": 0,
+  "image": "/img/chaos_sorcerer.jpg",
+  "stats": {
+    "M": "6\"",
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+  },
+  "rangedWeapons": [
+    { "name": "Bolt Pistol", "type": "[PISTOL]", "range": "12\"", "A": 1, "BS": "3+", "S": 4, "AP": 0, "D": 1 },
+    { "name": "Infernal Gaze – witchfire", "type": "[PSYCHIC]", "range": "24\"", "A": "D6", "BS": "3+", "S": 5, "AP": -1, "D": "D3" },
+    { "name": "Infernal Gaze – focused witchfire", "type": "[HAZARDOUS] [PSYCHIC]", "range": "D6", "A": 1, "BS": "3+", "S": 6, "AP": -2, "D": "D3" }
+  ],
+  "meleeWeapons": [{ "name": "Force Weapon", "type": "[PSYCHIC]", "range": "Melee", "A": 4, "BS": "3+", "S": 6, "AP": -1, "D": "D3" }],
+  "abilities": [
+    { "name": "Core", "description": "Leader" },
+    { "name": "Faction", "description": "Dark Pacts" },
+    { "name": "Prescience (Psychic)", "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll." },
+    { "name": "Gift of Chaos (Psychic)", "description": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds." }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}

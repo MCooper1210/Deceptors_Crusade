@@ -1,0 +1,30 @@
+{
+  "title": "Havocs",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 5,
+  "unitCost": 135,
+  "experience": 0,
+  "image": "/img/havocs.jpg",
+  "stats": {
+    "M": "5\"",
+    "T": 5,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+  },
+  "rangedWeapons": [
+    { "name": "Bolt Gun", "range": "24\"", "A": 2, "BS": "3+", "S": 4, "AP": 0, "D": 1 },
+    { "name": "Lascannon", "range": "48\"", "A": 1, "BS": "3+", "S": 12, "AP": -3, "D": "D6+1" }
+  ],
+  "meleeWeapons": [{ "name": "Close Combat Weapon", "range": "Melee", "A": 3, "BS": "3+", "S": 4, "AP": 0, "D": 1 }],
+  "abilities": [
+    { "name": "Faction", "description": "Dark Pacts" },
+    { "name": "Stabilisation Talons", "description": "Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon." }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}

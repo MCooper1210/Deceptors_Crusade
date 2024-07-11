@@ -1,0 +1,33 @@
+{
+  "title": "Predator Destructor",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 1,
+  "unitCost": 140,
+  "experience": 0,
+  "image": "/img/predator_destructor.jpg",
+  "stats": {
+    "M": "10\"",
+    "T": 10,
+    "Sv": "3+",
+    "W": 11,
+    "Ld": "6+",
+    "OC": 3
+  },
+  "rangedWeapons": [
+    { "name": "Combi-bolter", "type": "[RAPID FIRE 2]", "range": "24\"", "A": 2, "BS": "3+", "S": 4, "AP": 0, "D": 1 },
+    { "name": "Havoc Launcher", "type": "[BLAST]", "range": "48\"", "A": "D6", "BS": "3+", "S": 5, "AP": 0, "D": 1 },
+    { "name": "Heavy Bolter", "type": "[SUSTAINED HITS 1]", "range": "36\"", "A": 3, "BS": "3+", "S": 5, "AP": -1, "D": 2 },
+    { "name": "Predator Autocannon", "range": "48\"", "A": 4, "BS": "3+", "S": 9, "AP": -1, "D": 3 }
+  ],
+  "meleeWeapons": [{ "name": "Armoured Tracks", "range": "Melee", "A": 3, "BS": "6+", "S": 6, "AP": 0, "D": 1 }],
+  "abilities": [
+    { "name": "Core", "description": "Deadly Demise D3" },
+    { "name": "Faction", "description": "Dark Pacts" },
+    { "name": "Destructor:", "description": "Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1." }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}

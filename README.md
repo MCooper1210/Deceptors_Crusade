@@ -28,3 +28,6 @@ michael.cooper1210@ntlworld.com
      * Edited the nav-template to use the code for the unit template. For this I would be feeding data in from a separate json file. With this I can use this one javascript file and multiple json files to create the pages I need for the other units in the crusade games. 
      * Creating new JSON files will be straightforward, and updating them as the crusade games progress will be equally simple.
      * My next goal is to create multiple files for the other units.
+* 0.5
+     * Created json files for each unit with relevant information. Also added the images for each unit.
+     * My next goal is to create multiple html files for these units.

@@ -1,0 +1,32 @@
+{
+  "title": "Chaos Lord",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 1,
+  "unitCost": 95,
+  "experience": 0,
+  "image": "/img/chaos_lord.jpg",
+  "stats": {
+    "M": "6\"",
+    "T": 4,
+    "Sv": "3+/4++",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+  },
+  "rangedWeapons": [
+    { "name": "Plasma Pistol", "type": "[PISTOL]", "range": "12\"", "A": 1, "BS": "3+", "S": 7, "AP": -2, "D": 1 },
+    { "name": "Plasma Pistol (Overcharge)", "type": "[HAZARDOUS] [PISTOL]", "range": "12\"", "A": 1, "BS": "3+", "S": 8, "AP": -3, "D": 2 }
+  ],
+  "meleeWeapons": [{ "name": "Accursed Weapon", "range": "Melee", "A": 6, "BS": "2+", "S": 5, "AP": -2, "D": 1 }],
+  "abilities": [
+    { "name": "Core", "description": "Leader" },
+    { "name": "Faction", "description": "Dark Pacts" },
+    { "name": "Lord of Chaos", "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP." },
+    { "name": "Chance for Glory", "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1." }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Helbrute",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 1,
+  "unitCost": 135,
+  "experience": 0,
+  "image": "/img/helbrute.jpg",
+  "stats": {
+    "M": "6\"",
+    "T": 9,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 3
+  },
+  "rangedWeapons": [
+    { "name": "Heavy Flamer", "type": "[IGNORES COVER] [TORRENT]", "range": "12\"", "A": "D6", "BS": "N/A", "S": 5, "AP": -1, "D": 1 },
+    { "name": "Twin Lascannon", "type": "[TWIN-LINKED]", "range": "48\"", "A": "1", "BS": "3+", "S": 12, "AP": -3, "D": "D6+1" }
+  ],
+  "meleeWeapons": [{ "name": "Helbrute Fist", "range": "Melee", "A": 5, "BS": "3+", "S": 12, "AP": -2, "D": 3 }],
+  "abilities": [
+    { "name": "Core", "description": "Deadly Demise 1" },
+    { "name": "Faction", "description": "Dark Pacts" },
+    { "name": "Dark Ascension (Aura):", "description": "While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, weapons equipped by models in that unit gain both abilities conferred by that pact (instead of only one)" }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}

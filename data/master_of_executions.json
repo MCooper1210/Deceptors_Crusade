@@ -1,0 +1,29 @@
+{
+  "title": "Master of Executions",
+  "battlesPlayed": 0,
+  "battlesSurvived": 0,
+  "unitsDestroyed": 0,
+  "unitSize": 1,
+  "unitCost": 80,
+  "experience": 0,
+  "image": "/img/master_of_executions.jpg",
+  "stats": {
+    "M": "6\"",
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+  },
+  "rangedWeapons": [{ "name": "Bolt Pistol", "type": "[PISTOL]", "range": "12\"", "A": 1, "BS": "3+", "S": 4, "AP": 0, "D": 1 }],
+  "meleeWeapons": [{ "name": "Axe of Dismemberment", "type": "[DEVESTATING WOUNDS] [PRECISION]", "range": "Melee", "A": 5, "BS": "2+", "S": 7, "AP": -2, "D": "2" }],
+  "abilities": [
+    { "name": "Core", "description": "Leader" },
+    { "name": "Faction", "description": "Dark Pacts" },
+    { "name": "Warp-sighted Butcher:", "description": "While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well." },
+    { "name": "Trophy Taker:", "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP." }
+  ],
+  "battleHonours": "None",
+  "enhancementsUpgrades": "None",
+  "battleScars": "None"
+}
