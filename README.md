@@ -6,6 +6,8 @@ Webpage to track Warhammer 40,000 crusade games.
 
 Welcome to the Deceptors Crusade webpage! This site is dedicated to tracking the progress of my Warhammer 40,000 Alpha Legion army through a series of Crusade games. It provides a detailed account of various statistics, unit details, and overall performance across battles.
 
+I have used the Bootstrap framework as the basis of the website, but also included Web Components, which are new to me. I had fun learning how to use both and apply them to this project and I am keen to explore them further in future projects.
+
 ## Author
 
 Michael Cooper
@@ -35,3 +37,6 @@ michael.cooper1210@ntlworld.com
      * Created other html pages for the other units in the crusade, using a similar format to the legionaries_melee.html. 
      * Updated the legionaries_melee.html as it was using an incorrect json file.
      * Next goal is to create the chaos_favour.html page, as this is the last page I need for this website.
+* 0.7
+     * Created the chaos_favour.html page, it isn't the most creative page, but it works for what I need it to do, which is tracking the various favours in the crusade game.
+     * With this I am happy with the finished project. I may go back and alter the layout for some of the pages as there are some spacing issues, but overall it works as intended.
