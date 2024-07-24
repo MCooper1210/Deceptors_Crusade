@@ -1,6 +1,8 @@
 # Deceptors Crusade
 
-Webpage to track Warhammer 40,000 crusade games.
+Please open the following link to view the webpages in codesandbox.io:
+
+https://codesandbox.io/p/github/MCooper1210/Deceptors_Crusade/
 
 ## Description
 
@@ -40,3 +42,6 @@ michael.cooper1210@ntlworld.com
 * 0.7
      * Created the chaos_favour.html page, it isn't the most creative page, but it works for what I need it to do, which is tracking the various favours in the crusade game.
      * With this I am happy with the finished project. I may go back and alter the layout for some of the pages as there are some spacing issues, but overall it works as intended.
+* 0.8
+     * Added packages and folders to enable preview to run again, as this was broken.
+     * Updated readme to include the link to codesandbox.io for better viewing of the webpages.
